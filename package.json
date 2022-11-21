@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-validator": "^6.14.2",
+		"init": "^0.1.2",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.7.2"
+	},
+	"name": "rest-server-google",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"keywords": [],
+	"author": "Leandro Castagno",
+	"license": "ISC",
+	"description": ""
+}
