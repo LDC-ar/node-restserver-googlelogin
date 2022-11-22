@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors');
+// const cors = require('cors');
 const dbConnection = require('../db/config');
 
 class Server {
@@ -25,7 +25,7 @@ class Server {
 
 	middlewares() {
 		// CORS
-		this.app.use(cors());
+		// this.app.use(cors());
 
 		// Lectura y parseo del body.
 		this.app.use(express.json());
@@ -41,7 +41,7 @@ class Server {
 
 	listen() {
 		this.app.listen(this.PORT, () => {
-			console.log(`Server running in http://127.0.0.1:${this.PORT}`);
+			console.log(`Server running in http://localhost:${this.PORT}`);
 		});
 	}
 }
